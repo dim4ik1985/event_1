@@ -5,12 +5,16 @@
 .block__counter {
   display: flex;
   flex-direction: column;
+  text-align: center;
   font-size: 30px;
   text-transform: uppercase;
   padding: 10px 30px;
 }
 
 @media (max-width: 900px) {
+  .block .container {
+    max-width:500px;
+  }
   .block__column {
     cursor: url("./img/icons8-minecraft30.png"), grab;
   }

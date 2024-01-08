@@ -23,6 +23,7 @@ export default class MovingElement {
   removeImage() {
     document.querySelector(".block__img").remove();
   }
+
   getItemsImage(check, random) {
     let counterMissElement = document.querySelector(".counter__miss");
     this._counterMiss = counterMissElement.textContent;

@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let interval = setInterval(() => {
     let randomNumber = blockItems.searchRandomNumber();
+
     if (document.querySelector(".counter__miss").textContent > 4) {
       clearInterval(interval);
       blockItems.banner();
@@ -28,6 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 1000);
 
   setInterval(() => {
-    blockItems.inputDataTime();
+    data.inputDataTime();
   }, 1000);
 });
