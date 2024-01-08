@@ -1,0 +1,39 @@
+.block__row {
+  display: flex;
+  justify-content: center;
+}
+
+.block__row:first-child {
+  padding: 20px 0 0 0;
+}
+
+.block__row:last-child {
+  padding: 0 0 20px 0;
+}
+
+.block__column {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin: 1px;
+  border: 2px solid #6681af;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__item {
+  font-size: 50px;
+}
+
+.block__img {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .block__column {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border: 2px solid #80a7d7;
+  }
+}

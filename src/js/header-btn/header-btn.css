@@ -1,0 +1,17 @@
+.header__btn {
+  background: rgba(180, 224, 131, 0.41);
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.29);
+  border-radius: 10px;
+  padding: 5px 70px;
+}
+
+@media (max-width: 900px) {
+  .header__btn {
+    background: rgba(180, 224, 131, 0.41);
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 60px;
+  }
+}
